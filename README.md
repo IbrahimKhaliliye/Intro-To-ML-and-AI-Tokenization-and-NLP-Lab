@@ -52,7 +52,11 @@ With your Flask application initialized, it's time to integrate a model from Hug
    Begin by ensuring you've imported the essential libraries:
 
    ```python
-   from flask import Flask, request, jsonify
-   # Don't forget to also import your chosen model and tokenizer from the transformers library
+   from transformers import pipeline
+   model = pipeline("task_name",model='model_name_from_higging_face')
+   text = ["input"]
+   predictions = model(text)
 
 
+ ****Great job!****
+  ****Call an Instructor/TA to check your completed tasks****
