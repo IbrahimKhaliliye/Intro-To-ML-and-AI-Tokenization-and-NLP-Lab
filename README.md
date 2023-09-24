@@ -49,7 +49,10 @@ With your Flask application initialized, it's time to integrate a model from Hug
 
 1. **Import the Necessary Modules**
 
-   Begin by ensuring you've imported the essential libraries:
+  - Begin by ensuring you've imported the essential libraries.
+    1. Load your chosen model using the Hugging Face's pipeline
+    2. Replace `task_name` with the task you want (e.g., 'sentiment-analysis', 'translation', etc.)
+    3. Replace `model_name_from_hugging_face` with the model you selected.
 
    ```python
    from transformers import pipeline
