@@ -59,7 +59,13 @@ With your Flask application initialized, it's time to integrate a model from Hug
    model = pipeline("task_name",model='model_name_from_higging_face')
    text = ["input"]
    predictions = model(text)
-
+```
 
  ****Great job!****
   ****Call an Instructor/TA to check your completed tasks****
+
+## Challenge 🌟
+ - Extend your Flask application with additional functionalities or routes.
+ - 
+
+Remember, the journey is more important than the destination. Don't hesitate to ask if you're stuck. Happy coding! 🎉
