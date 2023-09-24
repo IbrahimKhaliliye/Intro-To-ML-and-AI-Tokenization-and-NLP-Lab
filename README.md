@@ -30,4 +30,29 @@ Choose a model from the `transformers` library that interests you, such as BERT,
 
 ### 1. Flask Application Setup
 
-Begin by setting up a basic Flask application structure:
+Begin by setting up a basic Flask application structure. You'll be creating a simple Flask server where users can access:
+
+```python
+from flask import Flask
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return "Hello, NLP Explorer!"
+
+if __name__ == "__main__":
+    app.run(debug=True)
+```
+### 2. Integrating the Model
+
+With your Flask application initialized, it's time to integrate a model from Hugging Face's `transformers` library. Here's how:
+
+1. **Import the Necessary Modules**
+
+   Begin by ensuring you've imported the essential libraries:
+
+   ```python
+   from flask import Flask, request, jsonify
+   # Don't forget to also import your chosen model and tokenizer from the transformers library
+
+
