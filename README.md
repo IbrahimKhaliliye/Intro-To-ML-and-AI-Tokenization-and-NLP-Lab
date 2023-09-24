@@ -66,6 +66,6 @@ With your Flask application initialized, it's time to integrate a model from Hug
 
 ## Challenge 🌟
  - Extend your Flask application with additional functionalities or routes.
- - 
+ - Add a basic frontend for better user interactivity.
 
 Remember, the journey is more important than the destination. Don't hesitate to ask if you're stuck. Happy coding! 🎉
