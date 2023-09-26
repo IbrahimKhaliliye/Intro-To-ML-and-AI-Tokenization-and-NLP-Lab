@@ -62,11 +62,11 @@ With your Flask application initialized, it's time to integrate a model from Hug
 ```
 ### 3. Linking Flask with Transformers and Adding a User Interface
 
-1. **Extend the `Flask` route to get user input from a simple `HTML form and process it using the loaded NLP model.**
+-  **Extend the `Flask` route to get user input from a simple `HTML` form and process it using the loaded NLP model.**
   
-2. **Design a simple `HTML` file to render the predictions' results**
-  
-3. **Update your `Flask` route to handle the requests, process the text using the model, and render the results on the `HTML` page**
+- **Design a simple `HTML` file to render the predictions' results**
+
+- **Update your `Flask` route to handle the requests, process the text using the model, and render the results on the `HTML` page**
    
  ****Great job!****
   ****Call an Instructor/TA to check your completed tasks****
